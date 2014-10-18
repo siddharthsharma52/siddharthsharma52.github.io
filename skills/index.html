@@ -5,20 +5,24 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>index.html | Siddharth Sharma</title>
+    <title>Tech Skills | Siddharth Sharma</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the online resume of siddharth sharma. explore to know more about me">
 
-<!-- CSS STUFF -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/colorbox.css" />
-      <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-     <link href="/css/simple-sidebar.css" rel="stylesheet">
-    
+
+<!-- CSS STUFF -->
+      <link href="/css/bootstrap.css" rel="stylesheet"> 
+   <link href="/css/bootstrap-responsive.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/colorbox.css" /> 
+     <link href="/css/bootstrap.min.css" rel="stylesheet"> 
+
+     <link  rel="stylesheet" href="/css/simple-sidebar.css" />
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
    
     <style>
+    
       ul.Circle {
     list-style-type: circle;
 }
@@ -27,7 +31,7 @@ ul.Square {
 }
 
       body {
-        padding-top: 41px;
+        padding-top: 0px;
         
                    }
         </style>
@@ -46,6 +50,7 @@ ul.Square {
    <!--JS STUFF --> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/js/jquery.colorbox.js"></script>
+
 
 
 
@@ -80,7 +85,6 @@ ul.Square {
           //return false;
         //});
       
-
       });
     </script>
 
@@ -103,54 +107,53 @@ ul.Square {
 
 
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
+        <div id="sidebar-wrapper" >
+            <ul class="sidebar-nav"> 
             
-                <li class="sidebar-brand">
-                    <a href="/">
-                        Online Resume
-                    </a>
+                <li class="sidebar-brand" >
+                    <br><a href="/"> 
+                        Siddharth Sharma                    </a>
                 </li>
-                <li>
-                    <a href="#">Dashboard</a>
-                </li>
-                
-            </ul>
-        </div>  
-
-        
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="/"><img src="/img/profilepic.png" height="25" width="25">&nbspSiddharth Sharma</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="active"><a href="/about">About Me</a></li>
+                 <li><br><br></li>
+                 <li class="active"><a href="/about">About Me</a></li>
               <li class="active"><a href="/academic">Academic</a></li>
               <li class="active"><a href="/skills">Technical Skills</a></li>
               <li class="active"><a href="/projects">Projects</a></li>
               <li class="active"><a href="/cv">Curriculum Vitae</a></li>
               <li class="active"><a href="/blog">Blog</a></li>
-
+              <br> <br>
+              <br><br>
+              <div style="color:#999999; background-color:rgba(255,255,255,0.2) ">
+              
+              <center>
+              <br>
+              siddharthsharma[at]nsitonline[dot]in 
+              <br><br>
+              </center>
+              </div>
+              <br>
+               <div style="color:#999999;">
+                 <center>
+                   <a style="color:#999999;text-decoration: none" target="_blank" href="https://twitter.com/siddharrtth"><span class="fa fa-twitter fa-3x"></span></a>&emsp;  
+                   <a style="color:#999999;text-decoration: none" target="_blank" href="https://www.facebook.com/MoonUnitsDad"><span class="fa fa-facebook-square fa-3x"></span></a>&emsp; 
+                   <a style="color:#999999;text-decoration: none" target="_blank" href="https://in.linkedin.com/pub/siddharth-sharma/29/95/a8a/"><span class="fa fa-linkedin-square fa-3x"></span></a> &emsp;
+                    <a style="color:#999999;text-decoration: none" target="_blank" href="https://in.linkedin.com/pub/siddharth-sharma/29/95/a8a/"><span class="fa fa-youtube fa-3x"></span></a>
+                 </center>
+               </div> 
             </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+        </div>  
+
+        
 
    <div id="page-content-wrapper">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="span12">
-                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
-  
-</a>
-        <p><h4>Technical Skills</h4></p><br><br>
+                  <div class="col-lg-12" style="position:absolute; top:31px">
+
+                     <a href="#menu-toggle" style="color:black;text-decoration: none" id="menu-toggle"><span class="fa fa-align-justify fa-fw fa-lg"></span></a>
+
+        <br><br>
+<p><h4>Technical Skills</h4></p><br><br>
 
 <p><b><i>Programming</i></b></p>
 <p>C/C++, Python, MATLAB, VHDL, Processing, LaTeX</p><br>
@@ -175,10 +178,30 @@ StellarisWare)</p><br>
     
    
 
+</div>
+</div>
+</div>
+</div>
+
+</div>
 
 
 
+<!-- /#wrapper -->
 
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
 
   </body>
 

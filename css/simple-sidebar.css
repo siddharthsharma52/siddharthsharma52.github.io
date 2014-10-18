@@ -38,8 +38,9 @@
 }
 
 #page-content-wrapper {
-    width: 100%;
+    width: 96%;
     padding: 15px;
+    	
 }
 
 #wrapper.toggled #page-content-wrapper {

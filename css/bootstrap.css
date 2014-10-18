@@ -319,6 +319,20 @@ a:focus {
   width: 940px;
 }
 
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 25px;
+}
+
+@media (min-width: 2000px) {
+  .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
 .span12 {
   width: 940px;
 }
@@ -764,7 +778,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, {
   margin: 10px 0;
   font-family: inherit;
   font-weight: bold;
@@ -923,6 +937,8 @@ dd {
 hr {
   margin: 20px 0;
   border: 0;
+background-color: #f00;
+color: #f00;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
 }
