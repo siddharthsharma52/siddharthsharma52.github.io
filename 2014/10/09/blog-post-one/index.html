@@ -5,7 +5,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lorem Ipsum Dolor Sit Amet | Siddharth Sharma</title>
+    <title>Python script to execute java files | Siddharth Sharma</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is the online resume of siddharth sharma. explore to know more about me">
 
@@ -160,7 +160,7 @@ div.desc {
                 </li>
                  <li><br><br></li>
                  <li class="active"><a href="/about">About Me</a></li>
-              <li class="active"><a href="/academic">Academic</a></li>
+              <li class="active"><a href="/academic">Academics</a></li>
               <li class="active"><a href="/skills">Technical Skills</a></li>
               <li class="active"><a href="/projects">Projects</a></li>
               <li class="active"><a href="/cv">Curriculum Vitae</a></li>
@@ -196,27 +196,34 @@ div.desc {
 
                      <a href="#menu-toggle" style="color:black;text-decoration: none" id="menu-toggle"><span class="fa fa-align-justify fa-fw fa-lg"></span></a>
 
-  <div class="row-fluid">
-    
-    <div class="span8">
-    <h1>Lorem Ipsum Dolor Sit Amet</h1>
-    <p class="muted">09 October 2014</p>
+        <p><br></p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.</p>
-
-<h2>Pellentesque sollicitudin</h2>
-
-<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, commodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper.</p>
-
-    </div>
-    <div class="span4">
-        <h3>Siddharth Sharma</h3>
-
-<p>Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.</p>
+<h4>Python script to execute java files</h4>
 
 
-    </div>
-</div>
+
+
+<p class="muted">09 October 2014</p>
+
+
+<p><br><br></p>
+
+<p>To execute java files through python, we execute a bash script called shellcmds.sh that contains bash commands to execute a java(.jar) file.
+the python script:
+<br><br></p>
+
+<pre>import subprocess  
+ subprocess.call("./shellcmds.sh",shell=True)  </pre>
+
+
+<p>The shell script contains commands to first go into the dist/ folder which contains the java script and then execute it.
+the shell script:
+<br><br></p>
+
+<pre>cd dist  
+ java -jar PythonScriptRunner.jar  </pre>
+
+
 
     
    
